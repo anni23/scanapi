@@ -41,7 +41,7 @@ Create your project workspace folder (Lets say "opswat") and change directory to
 $ mkdir opswat
 $ cd opswat
 ```
-Clone the project from github.
+Clone the project from github into the opswat directory.
 ```sh
 $ git clone https://github.com/anni23/scanapi.git
 ```
@@ -76,7 +76,7 @@ $ cd scanapi
 $ python manage.py runserver
 ```
 ## Scanning the file
-Put the file to be scanned with extension in the following directory : opswat/scanapi/ 
+Put the file to be scanned in the following directory : opswat/scanapi/ 
 Basically the  file to be scanned should be in the root directory of the Djando server.
 ```
 Example : opswat/scanapi/file_name.txt 
@@ -104,7 +104,7 @@ Create your project workspace folder (Lets say "opswat") and change directory to
 $ mkdir opswat
 $ cd opswat
 ```
-Clone the project from github.
+Clone the project from github into the opswat directory.
 ```sh
 $ git clone https://github.com/anni23/scanapi.git
 ```
@@ -134,6 +134,7 @@ print(callScanAPI(file_name))
 ## Scanning the file
 Put the file to be scanned in following directory:
 opswat/scanapi/webapp/  
+Basically, the file to be scanned should be in same directory as scanfile.py python file
 ```
 Example : opswat/scanapi/webapp/file_name.txt 
 ``` 
@@ -145,7 +146,7 @@ $ cd opswat/scanapi/webapp/
 Type following command and hit enter:
 ```sh
 $ python scanfile.py file_name.extension 
-$ python scanfile.py sample.txt
+Example - $ python scanfile.py sample.txt
 ```
 ***
 
