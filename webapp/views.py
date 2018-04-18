@@ -11,11 +11,9 @@ class scanAPI(APIView):
 
     def get(self, request, file_name):
         data = scanfile.callScanAPI(file_name)
-        #data = {"key" : file_name}
         return Response(data)
-        #return Response(param)
 '''    
     def post(self, request):
-        data = getdata.callGmAPIPost(id, request)
-     	return Response(data)
+        data = scanfile.callScanAPI(file_name)
+        return Response(data)
 '''
